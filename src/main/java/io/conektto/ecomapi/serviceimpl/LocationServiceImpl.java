@@ -3,8 +3,9 @@ package io.conektto.ecomapi.serviceimpl;
 import java.util.List;
 import java.util.Optional;
 
-import org.springframework.beans.factory.annotation.Autowired;
+
 import org.springframework.stereotype.Service;
+
 
 import io.conektto.ecomapi.exception.LocationException;
 import io.conektto.ecomapi.model.Location;
@@ -12,16 +13,20 @@ import io.conektto.ecomapi.repository.LocationRepository;
 import io.conektto.ecomapi.service.LocationService;
 import io.conektto.ecomapi.util.Constents;
 
+
 @Service
 public class LocationServiceImpl implements LocationService{
 	
 	
 	private LocationRepository locationRepository;
 
+	
 	public LocationServiceImpl(LocationRepository locationRepository) {
 		super();
 		this.locationRepository = locationRepository;
 	}
+	
+	
 	
 	@Override
 	public Location saveLocation(Location location) {
@@ -31,6 +36,7 @@ public class LocationServiceImpl implements LocationService{
 
 	@Override
 	public List<Location> getAllLocations() {
+		//logLevelDisplay();
 		return locationRepository.findAll();
 	}
 

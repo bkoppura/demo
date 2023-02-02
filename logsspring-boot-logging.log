@@ -1,0 +1,50 @@
+2023-02-01T09:29:05.048+05:30  INFO 25296 --- [main] i.conektto.ecomapi.DemoApplicationTests  : Starting DemoApplicationTests using Java 17.0.5 with PID 25296 (started by anees in C:\appdev\conekttoapi\demo)
+2023-02-01T09:29:05.051+05:30  INFO 25296 --- [main] i.conektto.ecomapi.DemoApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2023-02-01T09:29:05.085+05:30 DEBUG 25296 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@73386d72
+2023-02-01T09:29:05.648+05:30  INFO 25296 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-01T09:29:05.713+05:30  INFO 25296 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51 ms. Found 3 JPA repository interfaces.
+2023-02-01T09:29:06.193+05:30  INFO 25296 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-01T09:29:07.720+05:30  INFO 25296 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 6f9b4113-6f0d-48a1-b4f7-1116edab1b4f
+2023-02-01T09:29:07.723+05:30  INFO 25296 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-01T09:29:07.775+05:30  INFO 25296 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-01T09:29:07.829+05:30  INFO 25296 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-02-01T09:29:07.996+05:30  WARN 25296 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-01T09:29:08.113+05:30  INFO 25296 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2023-02-01T09:29:08.113+05:30  WARN 25296 --- [main] org.hibernate.orm.deprecation            : HHH90000026: SQLServer2012Dialect has been deprecated; use org.hibernate.dialect.SQLServerDialect instead
+2023-02-01T09:29:09.135+05:30  INFO 25296 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-01T09:29:09.146+05:30  INFO 25296 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-01T09:29:09.621+05:30  WARN 25296 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-01T09:29:09.766+05:30 DEBUG 25296 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-02-01T09:29:09.862+05:30 DEBUG 25296 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 13 mappings in 'requestMappingHandlerMapping'
+2023-02-01T09:29:09.881+05:30 DEBUG 25296 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-02-01T09:29:09.890+05:30 DEBUG 25296 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-02-01T09:29:09.979+05:30  INFO 25296 --- [main] i.conektto.ecomapi.DemoApplicationTests  : Started DemoApplicationTests in 5.177 seconds (process running for 6.058)
+2023-02-01T09:29:10.235+05:30 DEBUG 25296 --- [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@73386d72, started on Wed Feb 01 09:29:05 IST 2023
+2023-02-01T09:29:10.239+05:30  INFO 25296 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-01T09:29:10.243+05:30  INFO 25296 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-01T09:29:11.512+05:30  INFO 25296 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-02-01T09:41:08.151+05:30  INFO 24684 --- [main] i.conektto.ecomapi.DemoApplicationTests  : Starting DemoApplicationTests using Java 17.0.5 with PID 24684 (started by anees in C:\appdev\conekttoapi\demo)
+2023-02-01T09:41:08.153+05:30  INFO 24684 --- [main] i.conektto.ecomapi.DemoApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2023-02-01T09:41:08.177+05:30 DEBUG 24684 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@73386d72
+2023-02-01T09:41:08.676+05:30  INFO 24684 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-01T09:41:08.728+05:30  INFO 24684 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45 ms. Found 3 JPA repository interfaces.
+2023-02-01T09:41:09.145+05:30  INFO 24684 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-01T09:41:10.942+05:30  INFO 24684 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 80ae1d9f-93db-41d9-a488-ae41dae82b2e
+2023-02-01T09:41:10.946+05:30  INFO 24684 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-01T09:41:10.990+05:30  INFO 24684 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-01T09:41:11.039+05:30  INFO 24684 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-02-01T09:41:11.179+05:30  WARN 24684 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-01T09:41:11.303+05:30  INFO 24684 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2023-02-01T09:41:11.303+05:30  WARN 24684 --- [main] org.hibernate.orm.deprecation            : HHH90000026: SQLServer2012Dialect has been deprecated; use org.hibernate.dialect.SQLServerDialect instead
+2023-02-01T09:41:12.409+05:30  INFO 24684 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-01T09:41:12.422+05:30  INFO 24684 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-01T09:41:12.876+05:30  WARN 24684 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-01T09:41:13.045+05:30 DEBUG 24684 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-02-01T09:41:13.141+05:30 DEBUG 24684 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 13 mappings in 'requestMappingHandlerMapping'
+2023-02-01T09:41:13.164+05:30 DEBUG 24684 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-02-01T09:41:13.180+05:30 DEBUG 24684 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-02-01T09:41:13.256+05:30  INFO 24684 --- [main] i.conektto.ecomapi.DemoApplicationTests  : Started DemoApplicationTests in 5.346 seconds (process running for 6.192)
+2023-02-01T09:41:13.487+05:30 DEBUG 24684 --- [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@73386d72, started on Wed Feb 01 09:41:08 IST 2023
+2023-02-01T09:41:13.492+05:30  INFO 24684 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-01T09:41:13.494+05:30  INFO 24684 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-01T09:41:13.738+05:30  INFO 24684 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

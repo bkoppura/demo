@@ -1,5 +1,6 @@
 package io.conektto.ecomapi.controller;
 
+
 import java.util.List;
 
 import org.springframework.http.HttpStatus;
@@ -17,16 +18,35 @@ import org.springframework.web.util.UriComponentsBuilder;
 
 import io.conektto.ecomapi.model.Location;
 import io.conektto.ecomapi.service.LocationService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 
 @RestController
 @RequestMapping("/location")
 public class LocationController {
 
 	private LocationService locationService;
+	
+	private final Logger log = LoggerFactory.getLogger(this.getClass());
 
 	public LocationController(LocationService locationService) {
 		super();
 		this.locationService = locationService;
+	}
+	
+	@RequestMapping("/")
+	@ResponseBody
+	public String index() {
+		// Log a simple message
+		log.debug("debug level log");
+		log.info("info level log");
+		log.error("error level log");
+
+		// Log a formatted string with parameters
+		log.info("another info log with {}, {} and {} arguments", 1, "2", 3.0);
+
+		return "logging";
 	}
 	
 	
