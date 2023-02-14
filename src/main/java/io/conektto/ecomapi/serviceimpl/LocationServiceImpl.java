@@ -8,7 +8,9 @@ import org.springframework.stereotype.Service;
 
 
 import io.conektto.ecomapi.exception.LocationException;
+import io.conektto.ecomapi.exception.ProductException;
 import io.conektto.ecomapi.model.Location;
+import io.conektto.ecomapi.model.Product;
 import io.conektto.ecomapi.repository.LocationRepository;
 import io.conektto.ecomapi.service.LocationService;
 import io.conektto.ecomapi.util.Constents;
@@ -67,6 +69,17 @@ public class LocationServiceImpl implements LocationService{
 
 		}
 		return locationTemp;
+	}
+
+
+
+	@Override
+	public Location getLocationByID(Long locationid) {
+		// TODO Auto-generated method stub
+		
+		Location location=locationRepository.findById(locationid).orElseThrow(LocationException::new);
+
+		return location;
 	}
 	
 

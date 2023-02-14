@@ -68,6 +68,12 @@ public class Location {
 	public void setModifiedDate(Timestamp modifiedDate) {
 		ModifiedDate = modifiedDate;
 	}
-		
 
+	@Override
+	public String toString() {
+		return "Location [LocationID=" + LocationID + ", Name=" + Name + ", CostRate=" + CostRate + ", Availability="
+				+ Availability + ", ModifiedDate=" + ModifiedDate + "]";
+	}
+		
+	
 }

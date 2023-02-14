@@ -13,4 +13,6 @@ public interface LocationService {
 	public Boolean deleteLocation(Long locationId);
 
 	public Location updateLocation(Location location);
+
+	public Location getLocationByID(Long locationid);
 }

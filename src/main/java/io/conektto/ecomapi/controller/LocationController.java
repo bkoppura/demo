@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.util.UriComponentsBuilder;
 
+import io.conektto.ecomapi.dto.product.ProductDTO;
 import io.conektto.ecomapi.model.Location;
 import io.conektto.ecomapi.service.LocationService;
 import org.slf4j.Logger;
@@ -55,6 +56,13 @@ public class LocationController {
 	public ResponseEntity<List<Location>> getAllLocations(){
         List<Location> locationList = locationService.getAllLocations();
         return new ResponseEntity<List<Location>>(locationList, HttpStatus.OK);
+	}
+	
+	@GetMapping("/{locationid}")
+	@ResponseBody
+	public ResponseEntity<Location> getAllLocationByID(@PathVariable Long locationid){
+		Location location = locationService.getLocationByID(locationid);
+        return new ResponseEntity<Location>(location, HttpStatus.OK);
 	}
 
 	@PostMapping()
